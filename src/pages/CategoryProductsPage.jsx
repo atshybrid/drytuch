@@ -19,16 +19,17 @@ export default function CategoryProductsPage() {
   const [sort, setSort] = useState('popularity');
   const [maxPrice, setMaxPrice] = useState('');
 
-  const { data: categories = [] } = useQuery({
+  const { data: categories = [], isLoading: categoriesLoading } = useQuery({
     queryKey: ['categories'],
     queryFn: categoryService.getAll,
   });
-  const category = categories.find((c) => c.slug === slug);
 
-  const { data: products = [], isLoading } = useQuery({
-    queryKey: ['products', 'category', category?.id],
-    queryFn: () => productService.getByCategory(category.id),
-    enabled: !!category?.id,
+  const category = categories.find((c) => c.slug === slug) || categories.find((c) => c.id === slug);
+
+  const { data: products = [], isLoading: productsLoading } = useQuery({
+    queryKey: ['products', 'category', slug],
+    queryFn: () => productService.getByCategory(slug),
+    enabled: !!slug,
   });
 
   const filtered = useMemo(() => {
@@ -50,7 +51,7 @@ export default function CategoryProductsPage() {
     return list;
   }, [products, sort, maxPrice]);
 
-  if (isLoading) return <Loading />;
+  if (categoriesLoading || productsLoading) return <Loading />;
 
   return (
     <div className="pb-nav md:pb-10">

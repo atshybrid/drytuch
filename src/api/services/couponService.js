@@ -1,18 +1,24 @@
 import axiosClient from '../axiosClient';
+import { demoCoupons } from '../../data/demoDb';
+
+const isProd = import.meta.env.PROD;
 
 export const couponService = {
-  getAll: () => axiosClient.get('/coupons').then((r) => r.data),
+  getAll: () =>
+    isProd ? Promise.resolve(demoCoupons) : axiosClient.get('/coupons').then((r) => r.data),
 
   validate: async (code, subtotal, categoryId = null) => {
-    const coupons = await axiosClient.get('/coupons').then((r) => r.data);
-    const coupon = coupons.find(
-      (c) => c.code.toUpperCase() === code.toUpperCase()
-    );
+    const coupons = isProd
+      ? demoCoupons
+      : await axiosClient.get('/coupons').then((r) => r.data);
+    const coupon = coupons.find((c) => c.code.toUpperCase() === code.toUpperCase());
     if (!coupon) throw new Error('Invalid coupon code');
-    if (subtotal < coupon.minOrder)
+    if (subtotal < coupon.minOrder) {
       throw new Error(`Minimum order ₹${coupon.minOrder} required`);
-    if (coupon.categoryId && coupon.categoryId !== categoryId)
+    }
+    if (coupon.categoryId && coupon.categoryId !== categoryId) {
       throw new Error('Coupon not valid for these items');
+    }
 
     const discount =
       coupon.type === 'percent'
