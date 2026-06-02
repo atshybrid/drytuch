@@ -1,0 +1,1046 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Rahul Sharma",
+      "email": "rahul@drytuch.com",
+      "phone": "+91 98765 43210",
+      "avatar": "/logo.png",
+      "password": "demo123"
+    }
+  ],
+  "categories": [
+    {
+      "id": "dry-meat",
+      "name": "Dry Meat",
+      "slug": "dry-meat",
+      "icon": "meat",
+      "color": "#8B1E1E",
+      "image": "/drymutton.png",
+      "description": "Premium sun-dried mutton & chicken",
+      "productCount": 2
+    },
+    {
+      "id": "dry-vegetables",
+      "name": "Dry Vegetables",
+      "slug": "dry-vegetables",
+      "icon": "leaf",
+      "color": "#3E7B27",
+      "image": "/Dry_tamoto.png",
+      "description": "Sun-dried farm vegetables",
+      "productCount": 7
+    },
+    {
+      "id": "dry-fruits",
+      "name": "Dry Fruits",
+      "slug": "dry-fruits",
+      "icon": "fruit",
+      "color": "#F59E0B",
+      "image": "/Dry_mango.png",
+      "description": "Naturally sweet dried fruits & nuts",
+      "productCount": 7
+    },
+    {
+      "id": "dry-seafood",
+      "name": "Dry Seafood",
+      "slug": "dry-seafood",
+      "icon": "fish",
+      "color": "#2563EB",
+      "image": "/Dry_seafood.png",
+      "description": "Premium dried seafood",
+      "productCount": 1
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Dry Seafood",
+      "slug": "premium-beef-jerky",
+      "categoryId": "dry-seafood",
+      "price": 449,
+      "originalPrice": 599,
+      "discount": 25,
+      "rating": 4.8,
+      "reviewCount": 234,
+      "stock": 50,
+      "weight": "200g",
+      "featured": true,
+      "bestSeller": false,
+      "trending": true,
+      "deal": true,
+      "recommended": true,
+      "image": "/Dry_seafood.png",
+      "images": [
+        "/Dry_seafood.png",
+        "/drymutton.png"
+      ],
+      "description": "Slow-smoked premium beef jerky with bold spices. High protein, zero preservatives.",
+      "nutrition": {
+        "calories": "280 kcal",
+        "protein": "33g",
+        "fat": "12g",
+        "carbs": "8g",
+        "fiber": "2g"
+      },
+      "tags": [
+        "high-protein",
+        "smoked"
+      ],
+      "origin": "India",
+      "shelfLife": "12 months",
+      "ingredients": "Dry Seafood",
+      "benefits": [
+        "100% Natural",
+        "No Preservatives",
+        "Protein Rich"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Dry Chicken",
+      "slug": "spicy-chicken-jerky",
+      "categoryId": "dry-meat",
+      "price": 349,
+      "originalPrice": 449,
+      "discount": 22,
+      "rating": 4.6,
+      "reviewCount": 189,
+      "stock": 75,
+      "weight": "150g",
+      "featured": true,
+      "bestSeller": true,
+      "trending": false,
+      "deal": true,
+      "recommended": true,
+      "image": "/drychiken.png",
+      "images": [
+        "/drychiken.png"
+      ],
+      "description": "Tender chicken strips marinated in chili and herbs. Perfect on-the-go snack.",
+      "nutrition": {
+        "calories": "220 kcal",
+        "protein": "28g",
+        "fat": "8g",
+        "carbs": "6g",
+        "fiber": "1g"
+      },
+      "tags": [
+        "spicy",
+        "lean"
+      ],
+      "origin": "India",
+      "shelfLife": "12 months",
+      "ingredients": "Dry Chicken",
+      "benefits": [
+        "100% Natural",
+        "No Preservatives",
+        "Protein Rich"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Dry Mutton",
+      "slug": "mutton-dry-meat",
+      "categoryId": "dry-meat",
+      "price": 549,
+      "originalPrice": 699,
+      "discount": 21,
+      "rating": 4.7,
+      "reviewCount": 156,
+      "stock": 30,
+      "weight": "200g",
+      "featured": false,
+      "bestSeller": true,
+      "trending": true,
+      "deal": false,
+      "recommended": true,
+      "image": "/drymutton.png",
+      "images": [
+        "/drymutton.png"
+      ],
+      "description": "Traditional sun-dried mutton with authentic spices. Rich flavor, premium quality.",
+      "nutrition": {
+        "calories": "310 kcal",
+        "protein": "35g",
+        "fat": "15g",
+        "carbs": "5g",
+        "fiber": "0g"
+      },
+      "tags": [
+        "traditional",
+        "premium"
+      ],
+      "origin": "India",
+      "shelfLife": "12 months",
+      "ingredients": "Dry Mutton",
+      "benefits": [
+        "100% Natural",
+        "No Preservatives",
+        "Protein Rich"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Dry Tomato",
+      "slug": "sun-dried-tomato",
+      "categoryId": "dry-vegetables",
+      "price": 199,
+      "originalPrice": 249,
+      "discount": 20,
+      "rating": 4.5,
+      "reviewCount": 98,
+      "stock": 100,
+      "weight": "100g",
+      "featured": true,
+      "bestSeller": true,
+      "trending": true,
+      "deal": true,
+      "recommended": true,
+      "image": "/Dry_tamoto.png",
+      "images": [
+        "/Dry_tamoto.png"
+      ],
+      "description": "Italian-style sun-dried tomatoes in olive oil. Intense umami flavor.",
+      "nutrition": {
+        "calories": "140 kcal",
+        "protein": "3g",
+        "fat": "8g",
+        "carbs": "18g",
+        "fiber": "4g"
+      },
+      "tags": [
+        "vegan",
+        "italian"
+      ],
+      "origin": "India",
+      "shelfLife": "12 months",
+      "ingredients": "Dry Tomato",
+      "benefits": [
+        "100% Natural",
+        "No Preservatives",
+        "Protein Rich"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Dry Ginger",
+      "slug": "dry-mushroom-mix",
+      "categoryId": "dry-vegetables",
+      "price": 299,
+      "originalPrice": 379,
+      "discount": 21,
+      "rating": 4.7,
+      "reviewCount": 142,
+      "stock": 60,
+      "weight": "75g",
+      "featured": true,
+      "bestSeller": false,
+      "trending": false,
+      "deal": false,
+      "recommended": true,
+      "image": "/Dry_ginger.png",
+      "images": [
+        "/Dry_ginger.png"
+      ],
+      "description": "Blend of shiitake, oyster and button mushrooms. Rehydrates beautifully.",
+      "nutrition": {
+        "calories": "90 kcal",
+        "protein": "6g",
+        "fat": "1g",
+        "carbs": "14g",
+        "fiber": "5g"
+      },
+      "tags": [
+        "umami",
+        "gourmet"
+      ],
+      "origin": "India",
+      "shelfLife": "12 months",
+      "ingredients": "Dry Ginger",
+      "benefits": [
+        "100% Natural",
+        "No Preservatives",
+        "Protein Rich"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Dry Onion",
+      "slug": "crispy-dry-onion",
+      "categoryId": "dry-vegetables",
+      "price": 149,
+      "originalPrice": 179,
+      "discount": 17,
+      "rating": 4.4,
+      "reviewCount": 87,
+      "stock": 120,
+      "weight": "100g",
+      "featured": false,
+      "bestSeller": false,
+      "trending": true,
+      "deal": true,
+      "recommended": false,
+      "image": "/Dry_onion.png",
+      "images": [
+        "/Dry_onion.png"
+      ],
+      "description": "Golden fried onion flakes. Perfect topping for biryanis and salads.",
+      "nutrition": {
+        "calories": "160 kcal",
+        "protein": "2g",
+        "fat": "10g",
+        "carbs": "16g",
+        "fiber": "2g"
+      },
+      "tags": [
+        "crispy",
+        "topping"
+      ],
+      "origin": "India",
+      "shelfLife": "12 months",
+      "ingredients": "Dry Onion",
+      "benefits": [
+        "100% Natural",
+        "No Preservatives",
+        "Protein Rich"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Dry Dates",
+      "slug": "medjool-dates",
+      "categoryId": "dry-fruits",
+      "price": 399,
+      "originalPrice": 499,
+      "discount": 20,
+      "rating": 4.9,
+      "reviewCount": 312,
+      "stock": 80,
+      "weight": "500g",
+      "featured": true,
+      "bestSeller": false,
+      "trending": true,
+      "deal": true,
+      "recommended": true,
+      "image": "/Dry_dates.png",
+      "images": [
+        "/Dry_dates.png"
+      ],
+      "description": "Large, soft Medjool dates. Naturally sweet energy boost.",
+      "nutrition": {
+        "calories": "280 kcal",
+        "protein": "2g",
+        "fat": "0g",
+        "carbs": "75g",
+        "fiber": "7g"
+      },
+      "tags": [
+        "natural-sweet",
+        "energy"
+      ],
+      "origin": "India",
+      "shelfLife": "12 months",
+      "ingredients": "Dry Dates",
+      "benefits": [
+        "100% Natural",
+        "No Preservatives",
+        "Protein Rich"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Dry Apricot",
+      "slug": "turkish-apricots",
+      "categoryId": "dry-fruits",
+      "price": 349,
+      "originalPrice": 429,
+      "discount": 19,
+      "rating": 4.7,
+      "reviewCount": 198,
+      "stock": 90,
+      "weight": "250g",
+      "featured": true,
+      "bestSeller": false,
+      "trending": false,
+      "deal": true,
+      "recommended": true,
+      "image": "/Dry_aricot.png",
+      "images": [
+        "/Dry_aricot.png"
+      ],
+      "description": "Sun-dried Turkish apricots. No added sugar, rich in vitamins.",
+      "nutrition": {
+        "calories": "190 kcal",
+        "protein": "2g",
+        "fat": "0g",
+        "carbs": "48g",
+        "fiber": "4g"
+      },
+      "tags": [
+        "vitamin-rich",
+        "no-sugar"
+      ],
+      "origin": "India",
+      "shelfLife": "12 months",
+      "ingredients": "Dry Apricot",
+      "benefits": [
+        "100% Natural",
+        "No Preservatives",
+        "Protein Rich"
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Dry Raisin",
+      "slug": "dried-figs",
+      "categoryId": "dry-fruits",
+      "price": 379,
+      "originalPrice": 459,
+      "discount": 17,
+      "rating": 4.6,
+      "reviewCount": 167,
+      "stock": 55,
+      "weight": "200g",
+      "featured": false,
+      "bestSeller": false,
+      "trending": true,
+      "deal": false,
+      "recommended": true,
+      "image": "/Dry_raisin.png",
+      "images": [
+        "/Dry_raisin.png"
+      ],
+      "description": "Anjeer from Turkey. Soft, chewy texture with honey-like sweetness.",
+      "nutrition": {
+        "calories": "210 kcal",
+        "protein": "3g",
+        "fat": "1g",
+        "carbs": "52g",
+        "fiber": "6g"
+      },
+      "tags": [
+        "fiber-rich",
+        "premium"
+      ],
+      "origin": "India",
+      "shelfLife": "12 months",
+      "ingredients": "Dry Raisin",
+      "benefits": [
+        "100% Natural",
+        "No Preservatives",
+        "Protein Rich"
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Dry Apple",
+      "slug": "california-almonds",
+      "categoryId": "dry-fruits",
+      "price": 499,
+      "originalPrice": 599,
+      "discount": 17,
+      "rating": 4.8,
+      "reviewCount": 276,
+      "stock": 100,
+      "weight": "500g",
+      "featured": true,
+      "bestSeller": false,
+      "trending": true,
+      "deal": true,
+      "recommended": true,
+      "image": "/Dry_apple.png",
+      "images": [
+        "/Dry_apple.png"
+      ],
+      "description": "Crisp dried apple rings. Naturally sweet, no added sugar.",
+      "nutrition": {
+        "calories": "290 kcal",
+        "protein": "10g",
+        "fat": "25g",
+        "carbs": "10g",
+        "fiber": "5g"
+      },
+      "tags": [
+        "heart-healthy",
+        "superfood"
+      ],
+      "origin": "India",
+      "shelfLife": "12 months",
+      "ingredients": "Dry Apple",
+      "benefits": [
+        "100% Natural",
+        "No Preservatives",
+        "Protein Rich"
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Dry Banana",
+      "slug": "roasted-cashews",
+      "categoryId": "dry-fruits",
+      "price": 549,
+      "originalPrice": 649,
+      "discount": 15,
+      "rating": 4.7,
+      "reviewCount": 203,
+      "stock": 70,
+      "weight": "500g",
+      "featured": true,
+      "bestSeller": false,
+      "trending": false,
+      "deal": true,
+      "recommended": true,
+      "image": "/Dry_banana.png",
+      "images": [
+        "/Dry_banana.png"
+      ],
+      "description": "Sweet dried banana chips. Perfect healthy snack.",
+      "nutrition": {
+        "calories": "310 kcal",
+        "protein": "9g",
+        "fat": "24g",
+        "carbs": "18g",
+        "fiber": "2g"
+      },
+      "tags": [
+        "roasted",
+        "creamy"
+      ],
+      "origin": "India",
+      "shelfLife": "12 months",
+      "ingredients": "Dry Banana",
+      "benefits": [
+        "100% Natural",
+        "No Preservatives",
+        "Protein Rich"
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Dry Mango",
+      "slug": "premium-walnuts",
+      "categoryId": "dry-fruits",
+      "price": 599,
+      "originalPrice": 749,
+      "discount": 20,
+      "rating": 4.6,
+      "reviewCount": 145,
+      "stock": 45,
+      "weight": "500g",
+      "featured": false,
+      "bestSeller": true,
+      "trending": true,
+      "deal": false,
+      "recommended": true,
+      "image": "/Dry_mango.png",
+      "images": [
+        "/Dry_mango.png"
+      ],
+      "description": "Tropical dried mango slices. Rich in vitamins.",
+      "nutrition": {
+        "calories": "320 kcal",
+        "protein": "7g",
+        "fat": "28g",
+        "carbs": "12g",
+        "fiber": "4g"
+      },
+      "tags": [
+        "omega-3",
+        "brain-food"
+      ],
+      "origin": "India",
+      "shelfLife": "12 months",
+      "ingredients": "Dry Mango",
+      "benefits": [
+        "100% Natural",
+        "No Preservatives",
+        "Protein Rich"
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Dry Garlic",
+      "slug": "dry-garlic",
+      "categoryId": "dry-vegetables",
+      "price": 179,
+      "originalPrice": 219,
+      "discount": 18,
+      "rating": 4.5,
+      "reviewCount": 76,
+      "stock": 80,
+      "weight": "100g",
+      "featured": false,
+      "bestSeller": false,
+      "trending": true,
+      "deal": true,
+      "recommended": true,
+      "image": "/Dry_garlic.png",
+      "images": [
+        "/Dry_garlic.png"
+      ],
+      "description": "Sun-dried garlic flakes. Bold aroma for every dish.",
+      "nutrition": {
+        "calories": "120 kcal",
+        "protein": "2g",
+        "fat": "0g",
+        "carbs": "28g",
+        "fiber": "3g"
+      },
+      "tags": [
+        "aromatic",
+        "vegan"
+      ],
+      "origin": "India",
+      "shelfLife": "12 months",
+      "ingredients": "Dry Garlic",
+      "benefits": [
+        "100% Natural",
+        "No Preservatives",
+        "Protein Rich"
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Dry Red Chilli",
+      "slug": "dry-red-chilli",
+      "categoryId": "dry-vegetables",
+      "price": 159,
+      "originalPrice": 199,
+      "discount": 20,
+      "rating": 4.6,
+      "reviewCount": 92,
+      "stock": 100,
+      "weight": "75g",
+      "featured": false,
+      "bestSeller": false,
+      "trending": true,
+      "deal": false,
+      "recommended": true,
+      "image": "/Dry_chilli.png",
+      "images": [
+        "/Dry_chilli.png"
+      ],
+      "description": "Fiery dried red chillies. Authentic spice kick.",
+      "nutrition": {
+        "calories": "80 kcal",
+        "protein": "2g",
+        "fat": "1g",
+        "carbs": "18g",
+        "fiber": "4g"
+      },
+      "tags": [
+        "spicy",
+        "vegan"
+      ],
+      "origin": "India",
+      "shelfLife": "12 months",
+      "ingredients": "Dry Red Chilli",
+      "benefits": [
+        "100% Natural",
+        "No Preservatives",
+        "Protein Rich"
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Dry Curry Leaves",
+      "slug": "dry-curry-leaves",
+      "categoryId": "dry-vegetables",
+      "price": 129,
+      "originalPrice": 159,
+      "discount": 19,
+      "rating": 4.4,
+      "reviewCount": 64,
+      "stock": 90,
+      "weight": "50g",
+      "featured": false,
+      "bestSeller": false,
+      "trending": false,
+      "deal": true,
+      "recommended": true,
+      "image": "/Dry_curryleave.png",
+      "images": [
+        "/Dry_curryleave.png"
+      ],
+      "description": "Aromatic dried curry leaves for South Indian cooking.",
+      "nutrition": {
+        "calories": "60 kcal",
+        "protein": "1g",
+        "fat": "0g",
+        "carbs": "12g",
+        "fiber": "2g"
+      },
+      "tags": [
+        "aromatic",
+        "traditional"
+      ],
+      "origin": "India",
+      "shelfLife": "12 months",
+      "ingredients": "Dry Curry Leaves",
+      "benefits": [
+        "100% Natural",
+        "No Preservatives",
+        "Protein Rich"
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Dry Green Chilli",
+      "slug": "dry-green-chilli",
+      "categoryId": "dry-vegetables",
+      "price": 169,
+      "originalPrice": 209,
+      "discount": 19,
+      "rating": 4.5,
+      "reviewCount": 58,
+      "stock": 70,
+      "weight": "75g",
+      "featured": false,
+      "bestSeller": false,
+      "trending": true,
+      "deal": true,
+      "recommended": false,
+      "image": "/Dry_grinchilli.png",
+      "images": [
+        "/Dry_grinchilli.png"
+      ],
+      "description": "Dried green chillies with fresh heat and colour.",
+      "nutrition": {
+        "calories": "75 kcal",
+        "protein": "2g",
+        "fat": "1g",
+        "carbs": "16g",
+        "fiber": "3g"
+      },
+      "tags": [
+        "spicy",
+        "vegan"
+      ],
+      "origin": "India",
+      "shelfLife": "12 months",
+      "ingredients": "Dry Green Chilli",
+      "benefits": [
+        "100% Natural",
+        "No Preservatives",
+        "Protein Rich"
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Dry Pineapple",
+      "slug": "dry-pineapple",
+      "categoryId": "dry-fruits",
+      "price": 329,
+      "originalPrice": 399,
+      "discount": 18,
+      "rating": 4.7,
+      "reviewCount": 112,
+      "stock": 60,
+      "weight": "200g",
+      "featured": true,
+      "bestSeller": false,
+      "trending": true,
+      "deal": true,
+      "recommended": true,
+      "image": "/Dry_pinaple.png",
+      "images": [
+        "/Dry_pinaple.png"
+      ],
+      "description": "Tropical dried pineapple rings. Sweet and tangy.",
+      "nutrition": {
+        "calories": "200 kcal",
+        "protein": "1g",
+        "fat": "0g",
+        "carbs": "52g",
+        "fiber": "4g"
+      },
+      "tags": [
+        "tropical",
+        "sweet"
+      ],
+      "origin": "India",
+      "shelfLife": "12 months",
+      "ingredients": "Dry Pineapple",
+      "benefits": [
+        "100% Natural",
+        "No Preservatives",
+        "Protein Rich"
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "productId": "1",
+      "userId": "1",
+      "userName": "Priya M.",
+      "rating": 5,
+      "comment": "Best jerky I've ever had! Perfect spice level.",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "2",
+      "productId": "1",
+      "userId": "1",
+      "userName": "Amit K.",
+      "rating": 4,
+      "comment": "Great quality, slightly pricey but worth it.",
+      "date": "2026-05-10"
+    },
+    {
+      "id": "3",
+      "productId": "7",
+      "userId": "1",
+      "userName": "Sneha R.",
+      "rating": 5,
+      "comment": "Fresh and juicy dates. Will order again!",
+      "date": "2026-05-20"
+    },
+    {
+      "id": "4",
+      "productId": "10",
+      "userId": "1",
+      "userName": "Vikram S.",
+      "rating": 5,
+      "comment": "Crunchy almonds, excellent packaging.",
+      "date": "2026-05-18"
+    }
+  ],
+  "coupons": [
+    {
+      "id": "1",
+      "code": "DRYTUCH10",
+      "discount": 10,
+      "type": "percent",
+      "minOrder": 299,
+      "description": "10% off on orders above ₹299"
+    },
+    {
+      "id": "2",
+      "code": "WELCOME50",
+      "discount": 50,
+      "type": "flat",
+      "minOrder": 499,
+      "description": "₹50 off on first order above ₹499"
+    },
+    {
+      "id": "3",
+      "code": "NUTS20",
+      "discount": 20,
+      "type": "percent",
+      "minOrder": 399,
+      "categoryId": "nuts",
+      "description": "20% off on all nuts"
+    }
+  ],
+  "addresses": [
+    {
+      "id": "1",
+      "userId": "1",
+      "name": "Rahul Sharma",
+      "phone": "+91 98765 43210",
+      "line1": "42, Green Park Extension",
+      "line2": "Near Metro Station",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "pincode": "110016",
+      "isDefault": true
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-1001",
+      "userId": "1",
+      "items": [
+        {
+          "productId": "1",
+          "title": "Premium Dry Seafood",
+          "price": 449,
+          "quantity": 2,
+          "image": "/Dry_seafood.png"
+        },
+        {
+          "productId": "7",
+          "title": "Medjool Dates",
+          "price": 399,
+          "quantity": 1,
+          "image": "/Dry_dates.png"
+        }
+      ],
+      "subtotal": 1297,
+      "discount": 0,
+      "delivery": 49,
+      "total": 1346,
+      "status": "delivered",
+      "paymentMethod": "cod",
+      "addressId": "1",
+      "createdAt": "2026-05-20T10:30:00Z",
+      "tracking": [
+        {
+          "status": "confirmed",
+          "label": "Order Confirmed",
+          "date": "2026-05-20T10:30:00Z",
+          "completed": true
+        },
+        {
+          "status": "packed",
+          "label": "Packed",
+          "date": "2026-05-20T14:00:00Z",
+          "completed": true
+        },
+        {
+          "status": "shipped",
+          "label": "Shipped",
+          "date": "2026-05-21T09:00:00Z",
+          "completed": true
+        },
+        {
+          "status": "out_for_delivery",
+          "label": "Out for Delivery",
+          "date": "2026-05-22T08:00:00Z",
+          "completed": true
+        },
+        {
+          "status": "delivered",
+          "label": "Delivered",
+          "date": "2026-05-22T14:30:00Z",
+          "completed": true
+        }
+      ]
+    },
+    {
+      "id": "ORD-1002",
+      "userId": "1",
+      "items": [
+        {
+          "productId": "10",
+          "title": "Dry Apple",
+          "price": 499,
+          "quantity": 1,
+          "image": "/Dry_apple.png"
+        }
+      ],
+      "subtotal": 499,
+      "discount": 50,
+      "delivery": 49,
+      "total": 498,
+      "status": "shipped",
+      "paymentMethod": "upi",
+      "addressId": "1",
+      "createdAt": "2026-05-28T15:00:00Z",
+      "tracking": [
+        {
+          "status": "confirmed",
+          "label": "Order Confirmed",
+          "date": "2026-05-28T15:00:00Z",
+          "completed": true
+        },
+        {
+          "status": "packed",
+          "label": "Packed",
+          "date": "2026-05-28T18:00:00Z",
+          "completed": true
+        },
+        {
+          "status": "shipped",
+          "label": "Shipped",
+          "date": "2026-05-29T10:00:00Z",
+          "completed": true
+        },
+        {
+          "status": "out_for_delivery",
+          "label": "Out for Delivery",
+          "date": null,
+          "completed": false
+        },
+        {
+          "status": "delivered",
+          "label": "Delivered",
+          "date": null,
+          "completed": false
+        }
+      ]
+    }
+  ],
+  "offers": [
+    {
+      "id": "1",
+      "title": "Flat 20% Off",
+      "subtitle": "On all Dry Fruits",
+      "code": "FRUITS20",
+      "image": "/Dry_dates.png",
+      "expiresAt": "2026-06-30"
+    },
+    {
+      "id": "2",
+      "title": "Buy 2 Get 1 Free",
+      "subtitle": "On selected Jerky",
+      "code": "JERKY3",
+      "image": "/drychiken.png",
+      "expiresAt": "2026-06-15"
+    },
+    {
+      "id": "3",
+      "title": "Free Delivery",
+      "subtitle": "Orders above ₹499",
+      "code": "FREEDEL",
+      "image": "/Dry_raisin.png",
+      "expiresAt": "2026-12-31"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "1",
+      "userId": "1",
+      "title": "Order Delivered",
+      "message": "Your order ORD-1001 has been delivered successfully.",
+      "read": true,
+      "date": "2026-05-22T14:30:00Z",
+      "type": "order"
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "title": "Flash Sale!",
+      "message": "Get 25% off on all dry meats. Limited time offer!",
+      "read": false,
+      "date": "2026-06-01T09:00:00Z",
+      "type": "offer"
+    },
+    {
+      "id": "3",
+      "userId": "1",
+      "title": "Order Shipped",
+      "message": "Your order ORD-1002 is on the way.",
+      "read": false,
+      "date": "2026-05-29T10:00:00Z",
+      "type": "order"
+    }
+  ],
+  "banners": [
+    {
+      "id": "1",
+      "title": "Premium Dry Foods",
+      "subtitle": "Natural • Healthy • Premium",
+      "image": "/drytuch_landing.png",
+      "cta": "Shop Now",
+      "link": "/categories"
+    },
+    {
+      "id": "2",
+      "title": "Dry Meat Collection",
+      "subtitle": "Chicken · Mutton · Seafood",
+      "image": "/drymutton.png",
+      "cta": "Shop Meat",
+      "link": "/categories/dry-meat"
+    },
+    {
+      "id": "3",
+      "title": "Dry Fruits & Vegetables",
+      "subtitle": "Farm direct quality",
+      "image": "/Dry_dates.png",
+      "cta": "Explore",
+      "link": "/categories/dry-fruits"
+    }
+  ]
+}
