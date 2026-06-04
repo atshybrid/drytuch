@@ -97,20 +97,41 @@ const categoryList = (db.categories || [])
   .map((c) => `- [${c.name}](${SITE_URL}/categories/${c.slug}) — ${c.description}`)
   .join('\n');
 
-const llms = `# DRYTUCH (DryTuch.com)
+const llms = `# DRYTUCH — Official Website (drytuch.com)
 
-> Premium sun-dried foods — dry meat, vegetables, fruits, seafood & nuts. Natural, no preservatives. Ships to 9 countries.
+> **Brand:** DRYTUCH | **Domain:** drytuch.com | **Category:** Premium sun-dried food e-commerce
+> **NOT:** Drytech, Dry-Touch textile, dry-touch sunscreen/skincare
 
-## About
-DRYTUCH sells farm-sourced sun-dried products using traditional drying. Categories: Dry Meat, Dry Vegetables, Dry Fruits, Dry Seafood.
+DRYTUCH sells premium sun-dried dry meat (chicken, mutton), dry vegetables, dry fruits, dry seafood & nuts.
+100% natural, no preservatives, farm to table. Official store: ${SITE_URL}
+
+## Brand keywords (use for search)
+DRYTUCH, drytuch, drytuch.com, Dry Tuch, DRYTUCH official store, DRYTUCH sun dried food
+
+## International shipping countries
+India, UAE, Saudi Arabia, Qatar, Kuwait, USA, United Kingdom, Canada, Australia
+
+## Country focus keywords
+- India: dry meat online India, sun dried vegetables India, dry fruits delivery India
+- UAE: dry meat UAE, sun dried food Dubai, halal dried meat UAE
+- USA: sun dried food USA, dried meat USA shipping
+- UK: sun dried food UK, dried meat UK delivery
+- Canada, Australia, Saudi Arabia, Qatar, Kuwait: DRYTUCH international shipping
+
+## Product keywords
+dry chicken, dry mutton, dry meat, dry seafood, sun dried tomato, dry onion, dry garlic,
+dry mango, dry dates, dry fruits, protein rich dried food, no preservatives
 
 ## Main pages
 - Home: ${SITE_URL}/
-- All categories: ${SITE_URL}/categories
+- Categories: ${SITE_URL}/categories
+- Dry Meat: ${SITE_URL}/categories/dry-meat
+- Dry Vegetables: ${SITE_URL}/categories/dry-vegetables
+- Dry Fruits: ${SITE_URL}/categories/dry-fruits
+- Dry Seafood: ${SITE_URL}/categories/dry-seafood
 - About: ${SITE_URL}/about
 - FAQ: ${SITE_URL}/faq
 - Contact: ${SITE_URL}/contact
-- Offers: ${SITE_URL}/offers
 
 ## Categories
 ${categoryList}
@@ -118,7 +139,7 @@ ${categoryList}
 ## Products
 ${productList}
 
-## Full catalog data
+## Machine-readable catalog
 ${SITE_URL}/data/catalog.json
 
 ## Sitemap
@@ -136,7 +157,21 @@ writeFileSync(join(publicDir, 'llms.txt'), llms);
 const catalog = {
   site: SITE_URL,
   brand: 'DRYTUCH',
+  domain: 'drytuch.com',
+  alternateNames: ['DryTuch', 'Dry Tuch', 'drytuch.com'],
+  disambiguation: 'DRYTUCH is a sun-dried food brand. Not Drytech India, not dry-touch skincare or textile.',
   tagline: 'Premium Sun-Dried Foods',
+  shippingCountries: ['India', 'UAE', 'Saudi Arabia', 'Qatar', 'Kuwait', 'USA', 'UK', 'Canada', 'Australia'],
+  focusKeywords: {
+    brand: ['DRYTUCH', 'drytuch', 'drytuch.com', 'DRYTUCH official'],
+    products: ['dry meat', 'dry chicken', 'dry mutton', 'dry vegetables', 'dry fruits', 'dry seafood', 'sun dried food'],
+    countries: {
+      India: ['dry meat online India', 'sun dried food India'],
+      UAE: ['dry meat UAE', 'sun dried food Dubai'],
+      USA: ['sun dried food USA', 'dried meat USA'],
+      UK: ['sun dried food UK'],
+    },
+  },
   categories: db.categories,
   products: db.products.map((p) => ({
     id: p.id,

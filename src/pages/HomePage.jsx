@@ -6,6 +6,7 @@ import HowItWorks from '../components/platform/home/HowItWorks';
 import WhySection from '../components/platform/home/WhySection';
 import TestimonialsSection from '../components/platform/home/TestimonialsSection';
 import AppPromoSection from '../components/platform/home/AppPromoSection';
+import InternationalSeoSection from '../components/platform/home/InternationalSeoSection';
 import PlatformFooter from '../components/platform/layout/PlatformFooter';
 
 export default function HomePage() {
@@ -19,6 +20,7 @@ export default function HomePage() {
       <WhySection />
       <TestimonialsSection />
       <AppPromoSection />
+      <InternationalSeoSection />
       <PlatformFooter />
     </div>
   );

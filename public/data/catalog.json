@@ -1,7 +1,59 @@
 {
   "site": "https://drytuch.com",
   "brand": "DRYTUCH",
+  "domain": "drytuch.com",
+  "alternateNames": [
+    "DryTuch",
+    "Dry Tuch",
+    "drytuch.com"
+  ],
+  "disambiguation": "DRYTUCH is a sun-dried food brand. Not Drytech India, not dry-touch skincare or textile.",
   "tagline": "Premium Sun-Dried Foods",
+  "shippingCountries": [
+    "India",
+    "UAE",
+    "Saudi Arabia",
+    "Qatar",
+    "Kuwait",
+    "USA",
+    "UK",
+    "Canada",
+    "Australia"
+  ],
+  "focusKeywords": {
+    "brand": [
+      "DRYTUCH",
+      "drytuch",
+      "drytuch.com",
+      "DRYTUCH official"
+    ],
+    "products": [
+      "dry meat",
+      "dry chicken",
+      "dry mutton",
+      "dry vegetables",
+      "dry fruits",
+      "dry seafood",
+      "sun dried food"
+    ],
+    "countries": {
+      "India": [
+        "dry meat online India",
+        "sun dried food India"
+      ],
+      "UAE": [
+        "dry meat UAE",
+        "sun dried food Dubai"
+      ],
+      "USA": [
+        "sun dried food USA",
+        "dried meat USA"
+      ],
+      "UK": [
+        "sun dried food UK"
+      ]
+    }
+  },
   "categories": [
     {
       "id": "dry-meat",

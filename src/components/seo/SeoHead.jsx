@@ -31,12 +31,10 @@ function setLink(rel, href) {
   el.setAttribute('href', href);
 }
 
-/**
- * Per-page SEO: title, description, canonical, Open Graph, Twitter.
- */
 export default function SeoHead({
   title = SITE_TITLE,
   description = SITE_DESCRIPTION,
+  keywords = SITE_KEYWORDS,
   path,
   image = DEFAULT_OG_IMAGE,
   type = 'website',
@@ -51,9 +49,13 @@ export default function SeoHead({
     document.title = title;
 
     setMeta('description', description);
-    setMeta('keywords', SITE_KEYWORDS);
+    setMeta('keywords', keywords);
+    setMeta('application-name', SITE_NAME);
     setMeta('robots', noindex ? 'noindex, nofollow' : 'index, follow, max-image-preview:large');
     setMeta('googlebot', noindex ? 'noindex' : 'index, follow');
+
+    const googleVerify = import.meta.env.VITE_GOOGLE_SITE_VERIFICATION;
+    if (googleVerify) setMeta('google-site-verification', googleVerify);
 
     setLink('canonical', canonical);
 
@@ -69,7 +71,7 @@ export default function SeoHead({
     setMeta('twitter:title', title);
     setMeta('twitter:description', description);
     setMeta('twitter:image', ogImage);
-  }, [title, description, canonical, ogImage, type, noindex]);
+  }, [title, description, keywords, canonical, ogImage, type, noindex]);
 
   return null;
 }

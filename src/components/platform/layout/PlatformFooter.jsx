@@ -8,10 +8,12 @@ export default function PlatformFooter() {
         <div className="grid gap-8 md:grid-cols-4">
           <div>
             <p className="font-display text-xl font-extrabold">
-              <span className="text-brand-primary">DRY</span>TUCH
+              <a href="https://drytuch.com" className="text-brand-primary hover:opacity-90">
+                DRY<span className="text-stone-900">TUCH</span>.com
+              </a>
             </p>
             <p className="mt-2 text-sm text-brand-muted">
-              Premium sun-dried foods. Natural · Healthy · Worldwide.
+              Official store — premium sun-dried foods. India · UAE · USA · UK · Worldwide.
             </p>
           </div>
           <div>
