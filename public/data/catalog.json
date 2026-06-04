@@ -1,0 +1,264 @@
+{
+  "site": "https://drytuch.com",
+  "brand": "DRYTUCH",
+  "tagline": "Premium Sun-Dried Foods",
+  "categories": [
+    {
+      "id": "dry-meat",
+      "name": "Dry Meat",
+      "slug": "dry-meat",
+      "icon": "meat",
+      "color": "#8B1E1E",
+      "image": "/drymutton.png",
+      "description": "Premium sun-dried mutton & chicken",
+      "productCount": 2
+    },
+    {
+      "id": "dry-vegetables",
+      "name": "Dry Vegetables",
+      "slug": "dry-vegetables",
+      "icon": "leaf",
+      "color": "#3E7B27",
+      "image": "/Dry_tamoto.png",
+      "description": "Sun-dried farm vegetables",
+      "productCount": 7
+    },
+    {
+      "id": "dry-fruits",
+      "name": "Dry Fruits",
+      "slug": "dry-fruits",
+      "icon": "fruit",
+      "color": "#F59E0B",
+      "image": "/Dry_mango.png",
+      "description": "Naturally sweet dried fruits & nuts",
+      "productCount": 7
+    },
+    {
+      "id": "dry-seafood",
+      "name": "Dry Seafood",
+      "slug": "dry-seafood",
+      "icon": "fish",
+      "color": "#2563EB",
+      "image": "/Dry_seafood.png",
+      "description": "Premium dried seafood",
+      "productCount": 1
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Dry Seafood",
+      "slug": "premium-beef-jerky",
+      "categoryId": "dry-seafood",
+      "price": 449,
+      "currency": "INR",
+      "weight": "200g",
+      "description": "Slow-smoked premium beef jerky with bold spices. High protein, zero preservatives.",
+      "url": "https://drytuch.com/product/1",
+      "image": "https://drytuch.com/Dry_seafood.png"
+    },
+    {
+      "id": "2",
+      "title": "Dry Chicken",
+      "slug": "spicy-chicken-jerky",
+      "categoryId": "dry-meat",
+      "price": 349,
+      "currency": "INR",
+      "weight": "150g",
+      "description": "Tender chicken strips marinated in chili and herbs. Perfect on-the-go snack.",
+      "url": "https://drytuch.com/product/2",
+      "image": "https://drytuch.com/drychiken.png"
+    },
+    {
+      "id": "3",
+      "title": "Dry Mutton",
+      "slug": "mutton-dry-meat",
+      "categoryId": "dry-meat",
+      "price": 549,
+      "currency": "INR",
+      "weight": "200g",
+      "description": "Traditional sun-dried mutton with authentic spices. Rich flavor, premium quality.",
+      "url": "https://drytuch.com/product/3",
+      "image": "https://drytuch.com/drymutton.png"
+    },
+    {
+      "id": "4",
+      "title": "Dry Tomato",
+      "slug": "sun-dried-tomato",
+      "categoryId": "dry-vegetables",
+      "price": 199,
+      "currency": "INR",
+      "weight": "100g",
+      "description": "Italian-style sun-dried tomatoes in olive oil. Intense umami flavor.",
+      "url": "https://drytuch.com/product/4",
+      "image": "https://drytuch.com/Dry_tamoto.png"
+    },
+    {
+      "id": "5",
+      "title": "Dry Ginger",
+      "slug": "dry-mushroom-mix",
+      "categoryId": "dry-vegetables",
+      "price": 299,
+      "currency": "INR",
+      "weight": "75g",
+      "description": "Blend of shiitake, oyster and button mushrooms. Rehydrates beautifully.",
+      "url": "https://drytuch.com/product/5",
+      "image": "https://drytuch.com/Dry_ginger.png"
+    },
+    {
+      "id": "6",
+      "title": "Dry Onion",
+      "slug": "crispy-dry-onion",
+      "categoryId": "dry-vegetables",
+      "price": 149,
+      "currency": "INR",
+      "weight": "100g",
+      "description": "Golden fried onion flakes. Perfect topping for biryanis and salads.",
+      "url": "https://drytuch.com/product/6",
+      "image": "https://drytuch.com/Dry_onion.png"
+    },
+    {
+      "id": "7",
+      "title": "Dry Dates",
+      "slug": "medjool-dates",
+      "categoryId": "dry-fruits",
+      "price": 399,
+      "currency": "INR",
+      "weight": "500g",
+      "description": "Large, soft Medjool dates. Naturally sweet energy boost.",
+      "url": "https://drytuch.com/product/7",
+      "image": "https://drytuch.com/Dry_dates.png"
+    },
+    {
+      "id": "8",
+      "title": "Dry Apricot",
+      "slug": "turkish-apricots",
+      "categoryId": "dry-fruits",
+      "price": 349,
+      "currency": "INR",
+      "weight": "250g",
+      "description": "Sun-dried Turkish apricots. No added sugar, rich in vitamins.",
+      "url": "https://drytuch.com/product/8",
+      "image": "https://drytuch.com/Dry_aricot.png"
+    },
+    {
+      "id": "9",
+      "title": "Dry Raisin",
+      "slug": "dried-figs",
+      "categoryId": "dry-fruits",
+      "price": 379,
+      "currency": "INR",
+      "weight": "200g",
+      "description": "Anjeer from Turkey. Soft, chewy texture with honey-like sweetness.",
+      "url": "https://drytuch.com/product/9",
+      "image": "https://drytuch.com/Dry_raisin.png"
+    },
+    {
+      "id": "10",
+      "title": "Dry Apple",
+      "slug": "california-almonds",
+      "categoryId": "dry-fruits",
+      "price": 499,
+      "currency": "INR",
+      "weight": "500g",
+      "description": "Crisp dried apple rings. Naturally sweet, no added sugar.",
+      "url": "https://drytuch.com/product/10",
+      "image": "https://drytuch.com/Dry_apple.png"
+    },
+    {
+      "id": "11",
+      "title": "Dry Banana",
+      "slug": "roasted-cashews",
+      "categoryId": "dry-fruits",
+      "price": 549,
+      "currency": "INR",
+      "weight": "500g",
+      "description": "Sweet dried banana chips. Perfect healthy snack.",
+      "url": "https://drytuch.com/product/11",
+      "image": "https://drytuch.com/Dry_banana.png"
+    },
+    {
+      "id": "12",
+      "title": "Dry Mango",
+      "slug": "premium-walnuts",
+      "categoryId": "dry-fruits",
+      "price": 599,
+      "currency": "INR",
+      "weight": "500g",
+      "description": "Tropical dried mango slices. Rich in vitamins.",
+      "url": "https://drytuch.com/product/12",
+      "image": "https://drytuch.com/Dry_mango.png"
+    },
+    {
+      "id": "13",
+      "title": "Dry Garlic",
+      "slug": "dry-garlic",
+      "categoryId": "dry-vegetables",
+      "price": 179,
+      "currency": "INR",
+      "weight": "100g",
+      "description": "Sun-dried garlic flakes. Bold aroma for every dish.",
+      "url": "https://drytuch.com/product/13",
+      "image": "https://drytuch.com/Dry_garlic.png"
+    },
+    {
+      "id": "14",
+      "title": "Dry Red Chilli",
+      "slug": "dry-red-chilli",
+      "categoryId": "dry-vegetables",
+      "price": 159,
+      "currency": "INR",
+      "weight": "75g",
+      "description": "Fiery dried red chillies. Authentic spice kick.",
+      "url": "https://drytuch.com/product/14",
+      "image": "https://drytuch.com/Dry_chilli.png"
+    },
+    {
+      "id": "15",
+      "title": "Dry Curry Leaves",
+      "slug": "dry-curry-leaves",
+      "categoryId": "dry-vegetables",
+      "price": 129,
+      "currency": "INR",
+      "weight": "50g",
+      "description": "Aromatic dried curry leaves for South Indian cooking.",
+      "url": "https://drytuch.com/product/15",
+      "image": "https://drytuch.com/Dry_curryleave.png"
+    },
+    {
+      "id": "16",
+      "title": "Dry Green Chilli",
+      "slug": "dry-green-chilli",
+      "categoryId": "dry-vegetables",
+      "price": 169,
+      "currency": "INR",
+      "weight": "75g",
+      "description": "Dried green chillies with fresh heat and colour.",
+      "url": "https://drytuch.com/product/16",
+      "image": "https://drytuch.com/Dry_grinchilli.png"
+    },
+    {
+      "id": "17",
+      "title": "Dry Pineapple",
+      "slug": "dry-pineapple",
+      "categoryId": "dry-fruits",
+      "price": 329,
+      "currency": "INR",
+      "weight": "200g",
+      "description": "Tropical dried pineapple rings. Sweet and tangy.",
+      "url": "https://drytuch.com/product/17",
+      "image": "https://drytuch.com/Dry_pinaple.png"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is sun-dried food?",
+      "a": "Preserved with natural sunlight, no artificial preservatives."
+    },
+    {
+      "q": "International shipping?",
+      "a": "India, UAE, Saudi Arabia, Qatar, Kuwait, USA, UK, Canada, Australia."
+    }
+  ],
+  "updated": "2026-06-04"
+}

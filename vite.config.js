@@ -9,7 +9,7 @@ export default defineConfig({
     tailwindcss(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['logo.png', 'favicon.ico'],
+      includeAssets: ['logo.png', 'favicon.ico', 'robots.txt', 'sitemap.xml', 'llms.txt'],
       manifest: {
         name: 'DryTuch.com',
         short_name: 'DryTuch',

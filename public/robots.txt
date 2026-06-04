@@ -1,0 +1,32 @@
+# DRYTUCH — https://drytuch.com
+User-agent: *
+Allow: /
+
+# AI crawlers (ChatGPT, Gemini, Perplexity, etc.)
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+Disallow: /cart
+Disallow: /checkout
+Disallow: /profile
+Disallow: /profile/
+Disallow: /orders
+Disallow: /wishlist
+Disallow: /splash
+
+Sitemap: https://drytuch.com/sitemap.xml

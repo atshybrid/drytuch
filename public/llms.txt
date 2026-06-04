@@ -1,0 +1,45 @@
+# DRYTUCH (DryTuch.com)
+
+> Premium sun-dried foods — dry meat, vegetables, fruits, seafood & nuts. Natural, no preservatives. Ships to 9 countries.
+
+## About
+DRYTUCH sells farm-sourced sun-dried products using traditional drying. Categories: Dry Meat, Dry Vegetables, Dry Fruits, Dry Seafood.
+
+## Main pages
+- Home: https://drytuch.com/
+- All categories: https://drytuch.com/categories
+- About: https://drytuch.com/about
+- FAQ: https://drytuch.com/faq
+- Contact: https://drytuch.com/contact
+- Offers: https://drytuch.com/offers
+
+## Categories
+- [Dry Meat](https://drytuch.com/categories/dry-meat) — Premium sun-dried mutton & chicken
+- [Dry Vegetables](https://drytuch.com/categories/dry-vegetables) — Sun-dried farm vegetables
+- [Dry Fruits](https://drytuch.com/categories/dry-fruits) — Naturally sweet dried fruits & nuts
+- [Dry Seafood](https://drytuch.com/categories/dry-seafood) — Premium dried seafood
+
+## Products
+- [Dry Seafood](https://drytuch.com/product/1) — 200g, from ₹449
+- [Dry Chicken](https://drytuch.com/product/2) — 150g, from ₹349
+- [Dry Mutton](https://drytuch.com/product/3) — 200g, from ₹549
+- [Dry Tomato](https://drytuch.com/product/4) — 100g, from ₹199
+- [Dry Ginger](https://drytuch.com/product/5) — 75g, from ₹299
+- [Dry Onion](https://drytuch.com/product/6) — 100g, from ₹149
+- [Dry Dates](https://drytuch.com/product/7) — 500g, from ₹399
+- [Dry Apricot](https://drytuch.com/product/8) — 250g, from ₹349
+- [Dry Raisin](https://drytuch.com/product/9) — 200g, from ₹379
+- [Dry Apple](https://drytuch.com/product/10) — 500g, from ₹499
+- [Dry Banana](https://drytuch.com/product/11) — 500g, from ₹549
+- [Dry Mango](https://drytuch.com/product/12) — 500g, from ₹599
+- [Dry Garlic](https://drytuch.com/product/13) — 100g, from ₹179
+- [Dry Red Chilli](https://drytuch.com/product/14) — 75g, from ₹159
+- [Dry Curry Leaves](https://drytuch.com/product/15) — 50g, from ₹129
+- [Dry Green Chilli](https://drytuch.com/product/16) — 75g, from ₹169
+- [Dry Pineapple](https://drytuch.com/product/17) — 200g, from ₹329
+
+## Full catalog data
+https://drytuch.com/data/catalog.json
+
+## Sitemap
+https://drytuch.com/sitemap.xml

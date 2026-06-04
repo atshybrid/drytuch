@@ -10,7 +10,8 @@
     "dev": "concurrently \"npm run server\" \"vite\"",
     "dev:client": "vite",
     "server": "json-server --watch server/db.json --port 3001 --delay 300",
-    "build": "vite build",
+    "build": "node scripts/generate-seo.mjs && vite build",
+    "seo:generate": "node scripts/generate-seo.mjs",
     "lint": "eslint .",
     "preview": "vite preview",
     "start": "npm run dev"
